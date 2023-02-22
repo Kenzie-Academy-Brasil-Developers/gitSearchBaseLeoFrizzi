@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-brand-1: #C2255C;
+    --color-brand-2: #D6336C;
+    --color-grey-1: #191C1F;
+    --color-grey-2: #212529;
+    --color-grey-3: #33363A;
+    --color-grey-4: #373B3E;
+    --color-grey-5: #A6A8A9;
+    --color-grey-6: #FFFFFF;
+    --color-alert: #C22554;
+}
+
+body {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.main__esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--color-grey-2);
+}
+
+.div__esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 512px;
+}
+
+.h1__div__esquerda {
+    margin-bottom: 36px;
+    color: var(--color-grey-6);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.p__div__esquerda {
+    margin-bottom: 36px;
+    color: var(--color-grey-6);
+    font-weight: 400;
+}
+
+.button__div__esquerda {
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-6);
+    width: 342px;
+    height: 60px;
+    border: 2px solid var(--color-brand-2);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main__direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--color-grey-2);
+}
+
+.div__direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    left: 821px;
+    top: 179px;
+    background-color: var(--color-brand-2);
+    border-radius: 5px;
+    box-shadow: 15px 15px  #520F84;
+}
+
+.div2__direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    left: 842px;
+    top: 206px;
+    background-color: #520F84;
+    border-radius: 5px;
+}

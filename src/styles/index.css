@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-brand-1: #C2255C;
+    --color-brand-2: #D6336C;
+    --color-grey-1: #191C1F;
+    --color-grey-2: #212529;
+    --color-grey-3: #33363A;
+    --color-grey-4: #373B3E;
+    --color-grey-5: #A6A8A9;
+    --color-grey-6: #FFFFFF;
+    --color-alert: #C22554;
+}
+
+body {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.main__esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--color-brand-1);
+}
+
+.container__esquerdo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 512px;
+} 
+
+.h1__container__esquerdo {
+    margin-bottom: 36px;
+    color: var(--color-grey-6);
+}
+
+.p__container__esquerdo {
+    margin-bottom: 36px;
+    color: var(--color-grey-6);
+}
+
+.div__main__esquerda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p2__container__esquerdo {
+    color: var(--color-grey-6);
+}
+
+.ul__container__esquerdo {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+
+.main__direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--color-grey-2);
+}
+
+.section__direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--color-grey-2);
+}
+
+.container__direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.h2__container__direito {
+    color: var(--color-grey-6);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form label {
+    color: var(--color-grey-6);
+}
+
+#usuario__github {
+    width: 316px;
+    height: 38px;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-6);
+}
+
+.button__section__direita {
+    width: 316px;
+    height: 2.375rem;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 93px 10px 93px;
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-6);
+    cursor: pointer;
+}

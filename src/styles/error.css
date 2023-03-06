@@ -54,7 +54,7 @@ body {
     font-weight: 400;
 }
 
-.button__div__esquerda {
+.main__esquerda a {
     background-color: var(--color-brand-2);
     color: var(--color-grey-6);
     width: 342px;
@@ -64,6 +64,13 @@ body {
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    text-decoration: none;
 }
 
 .main__direita {
